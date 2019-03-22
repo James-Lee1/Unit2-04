@@ -3,8 +3,8 @@
  * Created by: James Lee
  * Created on: Mar 2019
  * Created for: ICS4U
- * This program creates a stack and pushes three numbers to it, and pops
- * the last value
+ * This program creates a stack and can push, pop, peek or clear without
+ * errors
  *
  ****************************************************************************/
 
