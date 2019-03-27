@@ -23,21 +23,18 @@ class Stack
    // Removes top value of stack
     public int pop()
     {
-        int update = myStack.remove(myStack.size()-1);
-        return update;
+        return myStack.remove(myStack.size()-1);
     }
 
     // Returns size of stack
     public int size()
     {
-        int size = myStack.size();
-        return size;
+        return myStack.size();
     }
 
     public int peek()
     {
-        int last = myStack.get(myStack.size() - 1);
-        return last;
+        return myStack.get(myStack.size() - 1);
     }
 
     public void clear()
