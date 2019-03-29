@@ -28,13 +28,14 @@ public class StackForm
             // Pops the last value of stack
             if (userChoice.equals("pop"))
             {
-                if (stack.size() == 0)
+                int popValue = stack.pop();
+                if (popValue == -1)
                 {
                     System.out.println("Stack is empty!" + "\n");
                 }
                 else
                 {
-                    System.out.println(stack.pop() + " was removed." + "\n");
+                    System.out.println(popValue + " was removed." + "\n");
                 }
             }
             // Pushes a value inputted by user, and will return an error message if it is
@@ -57,7 +58,7 @@ public class StackForm
 
             else if (userChoice.equals("peek"))
             {
-                if (stack.size() == 0)
+                if (stack.peek() == -1)
                 {
                     System.out.print("Error : No value to peek!" + "\n");
                 }
